@@ -1,8 +1,62 @@
-this is a test
+# Changelog
 
-update - 0.2
-- added test test test
-- lots of test
+## Update 15: Final Touches
+- Improved changelog loading performance.
+- Added error handling for invalid URLs.
+- Minor UI adjustments for better readability.
 
-update 0.1
-- this is another test
+## Update 14: Bug Fixes
+- Fixed a rare crash when loading changelog.
+- Resolved text alignment issues in the changelog display.
+
+## Update 13: Optimization
+- Optimized string download process for faster loading.
+- Reduced memory usage during changelog parsing.
+
+## Update 12: UI Enhancements
+- Updated font style for changelog text.
+- Added a loading spinner while fetching the changelog.
+
+## Update 11: Feature Addition
+- Added support for multiple changelog URLs.
+- Implemented a fallback mechanism for offline mode.
+
+## Update 10: Code Cleanup
+- Refactored `_LoadURL` method for better readability.
+- Removed unused variables and imports.
+
+## Update 9: Debugging Improvements
+- Enhanced debug logs for better issue tracking.
+- Added detailed error messages for failed downloads.
+
+## Update 8: Localization
+- Added support for multiple languages in the changelog.
+- Implemented dynamic language switching.
+
+## Update 7: Security
+- Added validation for changelog URLs to prevent misuse.
+- Improved handling of potentially malicious inputs.
+
+## Update 6: Visual Tweaks
+- Adjusted spacing between changelog entries.
+- Improved contrast for better visibility.
+
+## Update 5: Compatibility
+- Updated to support the latest Unity version.
+- Ensured compatibility with VRC SDK updates.
+
+## Update 4: Testing
+- Added unit tests for changelog loading functionality.
+- Improved test coverage for error scenarios.
+
+## Update 3: Documentation
+- Updated inline comments for better code understanding.
+- Added a README file for the changelog loader.
+
+## Update 2: Minor Fixes
+- Fixed a typo in the debug log message.
+- Resolved a null reference exception in `_LoadURL`.
+
+## Update 1: Initial Implementation
+- Created the `ChangelogLoader` script.
+- Implemented basic
